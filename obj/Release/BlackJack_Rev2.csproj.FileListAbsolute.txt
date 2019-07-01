@@ -1,0 +1,8 @@
+D:\Education\Computer Science\2008-2009 Semester 1\ICS4M\Unit 2 - OOP\Programs\BlackJack_Rev2\bin\Release\BlackJack.exe
+D:\Education\Computer Science\2008-2009 Semester 1\ICS4M\Unit 2 - OOP\Programs\BlackJack_Rev2\bin\Release\BlackJack.pdb
+D:\Education\Computer Science\2008-2009 Semester 1\ICS4M\Unit 2 - OOP\Programs\BlackJack_Rev2\obj\Release\ResolveAssemblyReference.cache
+D:\Education\Computer Science\2008-2009 Semester 1\ICS4M\Unit 2 - OOP\Programs\BlackJack_Rev2\obj\Release\BlackJack.frmMain.resources
+D:\Education\Computer Science\2008-2009 Semester 1\ICS4M\Unit 2 - OOP\Programs\BlackJack_Rev2\obj\Release\BlackJack.Properties.Resources.resources
+D:\Education\Computer Science\2008-2009 Semester 1\ICS4M\Unit 2 - OOP\Programs\BlackJack_Rev2\obj\Release\BlackJack_Rev2.csproj.GenerateResource.Cache
+D:\Education\Computer Science\2008-2009 Semester 1\ICS4M\Unit 2 - OOP\Programs\BlackJack_Rev2\obj\Release\BlackJack.exe
+D:\Education\Computer Science\2008-2009 Semester 1\ICS4M\Unit 2 - OOP\Programs\BlackJack_Rev2\obj\Release\BlackJack.pdb

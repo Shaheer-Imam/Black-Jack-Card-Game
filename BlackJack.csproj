@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5E34A25B-2A2A-48C1-81D2-4575D9DA5602}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BlackJack</RootNamespace>
+    <AssemblyName>BlackJack</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Card.cs" />
+    <Compile Include="CardImages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CardImages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Deck.cs" />
+    <Compile Include="frmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainMenu.Designer.cs">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSingle17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSingle17.Designer.cs">
+      <DependentUpon>frmSingle17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSingleCasino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSingleCasino.Designer.cs">
+      <DependentUpon>frmSingleCasino.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hand.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CardImages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CardImages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainMenu.resx">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSingle17.resx">
+      <DependentUpon>frmSingle17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSingleCasino.resx">
+      <DependentUpon>frmSingleCasino.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\Card1.gif" />
+    <Content Include="images\Card10.gif" />
+    <Content Include="images\Card11.gif" />
+    <Content Include="images\Card12.gif" />
+    <Content Include="images\Card13.gif" />
+    <Content Include="images\Card14.gif" />
+    <Content Include="images\Card15.gif" />
+    <Content Include="images\Card16.gif" />
+    <Content Include="images\Card17.gif" />
+    <Content Include="images\Card18.gif" />
+    <Content Include="images\Card19.gif" />
+    <Content Include="images\Card2.gif" />
+    <Content Include="images\Card20.gif" />
+    <Content Include="images\Card21.gif" />
+    <Content Include="images\Card22.gif" />
+    <Content Include="images\Card23.gif" />
+    <Content Include="images\Card24.gif" />
+    <Content Include="images\Card25.gif" />
+    <Content Include="images\Card26.gif" />
+    <Content Include="images\Card27.gif" />
+    <Content Include="images\Card28.gif" />
+    <Content Include="images\Card29.gif" />
+    <Content Include="images\Card3.gif" />
+    <Content Include="images\Card30.gif" />
+    <Content Include="images\Card31.gif" />
+    <Content Include="images\Card32.gif" />
+    <Content Include="images\Card33.gif" />
+    <Content Include="images\Card34.gif" />
+    <Content Include="images\Card35.gif" />
+    <Content Include="images\Card36.gif" />
+    <Content Include="images\Card37.gif" />
+    <Content Include="images\Card38.gif" />
+    <Content Include="images\Card39.gif" />
+    <Content Include="images\Card4.gif" />
+    <Content Include="images\Card40.gif" />
+    <Content Include="images\Card41.gif" />
+    <Content Include="images\Card42.gif" />
+    <Content Include="images\Card43.gif" />
+    <Content Include="images\Card44.gif" />
+    <Content Include="images\Card45.gif" />
+    <Content Include="images\Card46.gif" />
+    <Content Include="images\Card47.gif" />
+    <Content Include="images\Card48.gif" />
+    <Content Include="images\Card49.gif" />
+    <Content Include="images\Card5.gif" />
+    <Content Include="images\Card50.gif" />
+    <Content Include="images\Card51.gif" />
+    <Content Include="images\Card52.gif" />
+    <Content Include="images\Card6.gif" />
+    <Content Include="images\Card7.gif" />
+    <Content Include="images\Card8.gif" />
+    <Content Include="images\Card9.gif" />
+    <Content Include="images\CardFaceDown.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
